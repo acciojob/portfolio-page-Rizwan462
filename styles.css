@@ -1,2 +1,42 @@
 
 /* Your CSS Code here. */
+body{
+	font-family: arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-item: center;
+}
+img{
+	max-width: 200px;
+	margin: 20px;
+	border-radius: 25%
+}
+#portfolio{
+	background-color: #ffb;
+	padding: 20px;
+	border-radius: 8px;
+	margin: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h1{
+	color: #333;
+}
+a{
+	color: #0077cc;
+	text-decoration: none;
+}
+#skills, #projects{
+	text-align: left;
+	margin-top: 20px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+
